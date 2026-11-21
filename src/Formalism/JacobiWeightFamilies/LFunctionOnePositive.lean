@@ -7,7 +7,7 @@ noncomputable section
 
 namespace Formalism.WT
 
-open Formalism Formalism.CMTypeGaloisData
+open Formalism
 
 def Pz (z : ℝ) (M : ℕ) : Finset ℕ := (range (⌊z⌋₊ + 1)).filter (fun p => p.Prime ∧ ¬ p ∣ 2 * M)
 
