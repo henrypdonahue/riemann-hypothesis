@@ -6,7 +6,7 @@ noncomputable section
 
 namespace Formalism.D5
 
-open Formalism Formalism.CMTypeGaloisData Formalism.WT Formalism.WeightedSieveThreeParameter
+open Formalism Formalism.WT Formalism.WeightedSieveThreeParameter
 
 namespace Bal
 

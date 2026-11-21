@@ -6,7 +6,7 @@ noncomputable section
 
 namespace Formalism.TwistFamilyExistence₂
 
-open Formalism Formalism.CMTypeGaloisData Formalism.WT
+open Formalism Formalism.WT
 
 def Lc {N : ℕ} (χ : DirichletCharacter ℂ N) : ℂ :=
   if h : N = 0 then 0 else
